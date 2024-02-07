@@ -62,5 +62,5 @@ jobs:
         with:
           app-name: 'VarnaShop'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BAD1928C284D454E9379723F5EC70630 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FD56BE84C0EB446DA0FEA721D8ABFC95 }}
           package: .
