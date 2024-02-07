@@ -1,0 +1,232 @@
+.cover-images {
+    display: flex;
+    flex-direction: column; /* جعل التوجيه عموديًا */
+    align-items: center; /* توسيط الصور على العمود */
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px; /* تحديد المسافة الرأسية بين الصور */
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(7, 6, 6, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover .image-overlay {
+    opacity: 1;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    overflow-x: hidden; /* لتجنب الظهور الأفقي للشريط الأفقي أثناء استخدام الخلفية */
+}
+
+.cover-image {
+    width: 85%;
+    height: 1400px; /* ارتفاع الغلاف */
+    background-image: url('back5.jpg'); /* قم بتحديد مسار الصورة هنا */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff; /* لون النص أو أي عناصر إضافية هنا */
+    text-align: center;
+}
+.cover-title {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px; /* حجم الخط */
+    color: #ffffff; /* لون النص */
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/* الأنماط الأخرى هنا... */
+
+body {
+    background-color: #bbad7e; /* يمكنك استبدال هذا اللون باللون الذي تريده */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #bbad7e; /* لون خلفية الصفحة */
+}
+
+header {
+    background-color: #bbad7e; /* لون خلفية الهيدر */
+    color: rgb(219, 97, 97);
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #812e07fa; /* لون خلفية التنقل */
+    color: white; /* لون النص */
+    text-align: center;
+    padding: 10px 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+main {
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #0a0909; /* لون العنوان */
+}
+p {
+    text-align: center;
+    font-weight: bold;
+    color: #f7f0f0; /* لون النص */
+}
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+h2 {
+    text-align: center;
+    color: #f7ebeb; /* لون العنوان */
+}
+h3 {
+    text-align: center;
+    color: #0e0d0d; /* لون العنوان */
+}
+ul, ol {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+form {
+    text-align: center;
+}
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.search-container input[type=text] {
+    padding: 10px;
+    width: 30%;
+    margin-right: 10px;
+}
+.search-container button {
+    padding: 10px 20px;
+    background-color: #3b3838; /* لون زر البحث */
+    color: rgb(240, 234, 234);
+    border: none;
+    cursor: pointer;
+}
+iframe {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    height: 400px;
+}
+/* باقي أنماط CSS الأخرى هنا... */
+/* ... */
+
+footer {
+    background-color: #812e07fa; /* لون خلفية الفوتر */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+/* ستايلات الصفحة */
+
+/* ستايلات الشريط الجانبي */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #812e07fa; /* لون خلفية الشريط */
+    color: white;
+    padding: 20px;
+}
+
+.sidebar-content {
+    margin-top: 60px; /* لتجنب الاندماج مع الهيدر */
+}
+
+.sidebar h3 {
+    color: #ffffff; /* لون العنوان */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    color: #ffffff; /* لون الروابط */
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: #aaaaaa; /* تغيير لون الروابط عند التحويم */
+}
+
+/* في ملف CSS.css */
+
+.about-section {
+    position: relative;
+    background-image: url('m3.jpg'); /* استبدل 'your-image.jpg' بمسار صورتك */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* لون النص على الصورة */
+    text-align: center;
+    padding: 50px; /* تضبيط التباعد حول النص */
+}
+
+.about-content {
+    background-color: rgba(0, 0, 0, 0.5); /* خلفية للنص لتحسين القراءة على الصورة */
+    padding: 200px; /* تضبيط التباعد داخل العنصر الذي يحتوي على النص */
+}
+
+.about-content p {
+    margin: 400; /* إزالة هامش النص الافتراضي داخل العنصر */
+}

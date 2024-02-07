@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page 1</title>
+    <style>
+        /* أسلوب الخلفية للصفحة */
+        body {
+            background-color: #948450; /* لون الخلفية الذي تريده هنا */
+        }
+
+        /* أسلوب التصميم للصور */
+        .image-container {
+            margin: 10px; /* يمكنك ضبط هذا الرقم حسب البعد الذي تريده بين الصور */
+            position: relative;
+        }
+
+        img {
+            width: 300px; /* يمكنك ضبط هذا الرقم حسب العرض الذي تريده للصور */
+            height: 200px; /* يمكنك ضبط هذا الرقم حسب الارتفاع الذي تريده للصور */
+            display: block;
+        }
+
+        .image-info {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #333; /* لون الخلفية */
+            opacity: 0.9; /* تعديل شفافية الخلفية حسب الحاجة */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white; /* لون النص */
+            font-size: 16px; /* حجم النص */
+            visibility: hidden;
+        }
+
+        .image-info p {
+            margin: 10px 0;
+        }
+
+        /* عند تحويل الماوس إلى الصورة */
+        .image-container:hover .image-info {
+            visibility: visible;
+        }
+
+        /* أسلوب التصميم للزر */
+        button {
+            padding: 10px 20px;
+            background-color: #040804; /* لون الخلفية */
+            color: white; /* لون النص */
+            border: none;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        /* أسلوب عرض الصور بجانب بعضها في صفين */
+        ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            flex-wrap: wrap; /* تمكين الانزلاق للصور في صفوف متعددة */
+        }
+
+        li {
+            margin-right: 10px;
+            flex: 1; /* لتحديد نسبة المساحة لكل صورة */
+            max-width: calc(25% - 20px); /* 20px هو هامش الصورة */
+        }
+       
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 200vh; /* جعل الصفحة تمتلئ بالارتفاع */
+            margin: 0;
+        }
+
+        .cover-image {
+            text-align: center;
+        }
+
+        .logo {
+            width: 500px; /* قم بتعديل حجم اللوغو حسب احتياجاتك */
+            height: auto; /* للحفاظ على نسب اللوغو */
+        }
+
+        h1 {
+            margin-top: 10px; /* تعديل المسافة بين اللوغو والعنوان */
+        }
+
+        p {
+            text-align: center;
+        }
+   
+    </style>
+
+</head>
+<body>
+
+   
+
+    <h1> <div class="cover-image">
+        <!-- يمكنك إضافة نص أو عناصر إضافية هنا -->
+        <div class="cover-title">
+           <!-- إضافة اللوغو هنا -->
+                <img src="LOGO-PhotoRoom.png-PhotoRoom.png" alt="Shoes and Bags Store Logo" class="logo">
+                <!-- يمكنك إضافة نص أو عناصر إضافية هنا -->
+                <div class="cover-title"></h1>
+    <p>New Men collections that increase your elegance</p>
+
+    <!-- روابط للانتقال إلى الصفحات الأخرى -->
+    <ul>
+        <li class="image-container">
+            <img src="men2.jpg" alt="وصف للصورة الأولى">
+            <div class="image-info">
+                <p>Men Shoes - New Men Shoes</p>
+                <span>Price: $24.99</span>
+                <button>Buy Now</button>
+                <p>Available Sizes: 40, 41, 42, 43</p>
+                <p>Available Colors: Blue, Black, White</p>
+            </div>
+        </li>
+        <li class="image-container">
+            <img src="men3.jpg" alt="وصف للصورة الثانية">
+            <div class="image-info">
+                <p>Men Shoes - New Men Shoes</p>
+                <span>Price: $24.99</span>
+                <button>Buy Now</button>
+                <p>Available Sizes: 40, 41, 42, 43</p>
+                <p>Available Colors: Blue, Black, White</p>
+            </div>
+        </li>
+        <li class="image-container">
+            <img src="men4.jpg" alt="وصف للصورة الثالثة">
+            <div class="image-info">
+                <p>Men Shoes - New Men Shoes</p>
+                <span>Price: $24.99</span>
+                <button>Buy Now</button>
+                <p>Available Sizes: 40, 41, 42, 43</p>
+                <p>Available Colors: Blue, Black, White</p>
+            </div>
+        </li>
+        <li class="image-container">
+            <img src="men5.jpg" alt="وصف للصورة الرابعة">
+            <div class="image-info">
+                <p>Men Shoes - New Men Shoes</p>
+                <span>Price: $24.99</span>
+                <button>Buy Now</button>
+                <p>Available Sizes: 40, 41, 42, 43</p>
+                <p>Available Colors: Blue, Black, White</p>
+            </div>
+        </li>
+    <li class="image-container">
+        <img src="men6.jpeg" alt="وصف للصورة الثالثة">
+        <div class="image-info">
+            <p>Men Shoes - New Men Shoes</p>
+            <span>Price: $24.99</span>
+            <button>Buy Now</button>
+            <p>Available Sizes: 40, 41, 42, 43</p>
+            <p>Available Colors: Blue, Black, White</p>
+        </div>
+    </li>
+    <li class="image-container">
+        <img src="men7.jpg" alt="وصف للصورة الثالثة">
+        <div class="image-info">
+            <p>Men Shoes - New Men Shoes</p>
+            <span>Price: $24.99</span>
+            <button class="add-to-cart-btn" data-product="men-shoes-1">Add to Cart</button>
+
+<p>Available Sizes: 40, 41, 42, 43</p>
+            <p>Available Colors: Blue, Black, White</p>
+        </div>
+    </ul>
+
+    <span id="cart-count">0</span>
+
+
+
+    <header> <!-- زر الرجوع إلى الصفحة الرئيسية -->
+        <button onclick="window.location.href='index.html'">Back to Home</button></header>
+</body>
+</html>

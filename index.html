@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>Shoes and Bags Store</title>
+    <link rel="stylesheet" href="CSS.css">
+    <!-- ربط ملف JavaScript الخارجي -->
+    <script src="Javascript.js" defer></script>
+</head>
+<body>
+    <div class="cover-image">
+        <!-- يمكنك إضافة نص أو عناصر إضافية هنا -->
+        <div class="cover-title">
+           <!-- إضافة اللوغو هنا -->
+                <img src="LOGO-PhotoRoom.png-PhotoRoom.png" alt="Shoes and Bags Store Logo" class="logo">
+                <!-- يمكنك إضافة نص أو عناصر إضافية هنا -->
+                <div class="cover-title">
+                
+                </div>
+            </div>  
+        
+                
+    </div>
+
+    <!-- تضمين ملف الجافا سكريبت -->
+    <script src="Javascript.js"></script>
+
+    <nav>
+        <ul>
+            <li><a href="#about" style="color: #ffffff;">About Us</a></li>
+            <li><a href="#contact" style="color: #ffffff;">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="search-container">
+
+                
+            </form>
+            <button onclick="window.location.href='add.html'">Add Product</button></header>
+
+        </div>
+<h1
+<div 
+class="search-container">
+<form id="searchForm">
+    <label for="searchInput"></label>
+    <input type="text" id="searchInput" name="searchInput">
+    <button type="button" onclick="performSearch()">Search</button>
+</form>
+
+<script>
+    function performSearch() {
+        // Get the search input value
+        var searchTerm = document.getElementById("searchInput").value.toLowerCase();
+
+        // Check the search term and redirect to the appropriate page
+        switch (searchTerm) {
+            case "kids":
+                window.location.href = "page3.html";
+                break;
+            case "men":
+                window.location.href = "page2.html";
+                break;
+            case "women":
+                window.location.href = "page4.html";
+                break;
+            default:
+                // Handle other cases or perform a regular search
+                alert("Performing search for: " + searchTerm);
+        }
+    }
+</script>
+</div>
+    </h1>
+
+        <h2 class="cover-images">
+            <!-- الصور هنا -->
+            <a href="Page2.html" class="image-container">
+                <img src="m2.jpg" alt="Men shoes" width="500" height="600">
+                <div class="image-overlay"></div>
+                <figcaption>Men Shoes</figcaption>
+            </a>
+        
+            <a href="page3.html" class="image-container">
+                <img src="k1.jpg" alt="وصف للصورة الأولى" width="500" height="600">
+                <div class="image-overlay"></div>
+                <figcaption>Kids Shoes</figcaption>
+            </a>
+        
+            <a href="page4.html" class="image-container">
+                <img src="women.jpg" alt="وصف للصورة الثانية" width="500" height="600">
+                <div class="image-overlay"></div>
+                <figcaption>Women Shoes</figcaption>
+           
+            </a>
+
+
+        </h2>
+    </main>
+
+    <aside class="sidebar">
+        <div class="sidebar-content">
+            <h3>Varna Shoes</h3>
+            <ul>
+                <li><a href="Page2.html">Men Shoes</a></li>
+                <li><a href="page3.html">Kids Shoes</a></li>
+                <li><a href="page4.html">Women shoes</a></li>
+            </ul>
+        </div>
+        
+      
+        
+    </aside>
+
+    <footer>
+        <section id="contact">
+            <h2 style="color: #f5eded;">Contact Us</h2>
+            <h3>Our Branches</h3>
+            <ol>
+                <li>Amman</li>
+                <li>Irbid</li>
+                <li>Zarqa</li>
+            </ol>
+            <h3>Phone Number</h3>
+            <p>Phone: +1234567890</p>
+        </section>
+        <section id="about" class="about-section">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <p>We started in Jordan in 1970 and we are still giving and serving our customers in the best way.</p>
+            </div>
+        </section>
+        
+    </footer>
+</body>
+</html>
+</head>
+<body>
+   
+    
+  
