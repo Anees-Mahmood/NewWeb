@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "anees";
-$password = "anees";
-$dbname = "btec2024";
+$servername = "varnashop-server.mysql.database.azure.com";
+$username = "uerdimddwq";
+$password = "BP5I15CN30I2MT17$";
+$dbname = "varnashop-database";
 
 // إنشاء اتصال
 $conn = new mysqli($servername, $username, $password, $dbname);
